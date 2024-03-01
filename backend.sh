@@ -27,4 +27,4 @@ systemctl start backend &>>/tmp/expense.log
 
 dnf install mysql -y &>>/tmp/expense.log
 
-mysql -h 172.31.13.27 -uroot -pExpenseApp@1 < /app/schema/backend.sql &>>/tmp/expense.log
+mysql -h 44.203.22.17 -uroot -pExpenseApp@1 < /app/schema/backend.sql &>>/tmp/expense.log
